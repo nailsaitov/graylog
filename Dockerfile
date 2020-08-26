@@ -11,7 +11,6 @@ WORKDIR /tmp
 # hadolint ignore=DL3008,DL3015
 RUN \
   apt-get update  > /dev/null && \
-  apt-get install --assume-yes wget \
   apt-get install --assume-yes \
     ca-certificates \
     curl > /dev/null 
